@@ -103,7 +103,6 @@ body {
 .buttons #overview {
   font-family: "Cinzel", serif;
   font-weight: 900;
-  background: lightsalmon;
   width: 17.5px;
   height: 17.5px;
   cursor: pointer;
@@ -124,6 +123,7 @@ body {
 }
 
 .buttons #stop {
+  background: lightsalmon;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -200,6 +200,12 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .slider {
+    width: 90vw;
+    height: 85vh;
+    left: 5%;
+  }
+
   .content {
     font-size: 1.2rem;
   }
@@ -211,23 +217,23 @@ body {
   .buttons #prev,
   .buttons #next,
   .buttons #stop {
-    width: 12.5px;
-    height: 12.5px;
+    width: 10px;
+    height: 10px;
   }
 
   .buttons #prev {
-    bottom: 35px;
+    top: 15px;
     left: 10%;
   }
 
   .buttons #next {
-    bottom: 35px;
+    top: 15px;
     left: 25%;
   }
 
   .buttons #stop {
     top: 15px;
-    left: 10%;
+    left: 50%;
   }
 }
 
@@ -263,23 +269,23 @@ body {
   .buttons #prev,
   .buttons #next,
   .buttons #stop {
-    width: 12.5px;
-    height: 12.5px;
+    width: 10px;
+    height: 10px;
   }
 
   .buttons #prev {
-    bottom: 10px;
+    top: 5px;
     left: 10%;
   }
 
   .buttons #next {
-    bottom: 10px;
+    top: 5px;
     left: 25%;
   }
 
   .buttons #stop {
     top: 5px;
-    left: 10%;
+    left: 50%;
   }
 }
 
