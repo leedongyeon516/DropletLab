@@ -92,7 +92,7 @@ body {
 }
 
 .card-p {
-  font-family: "Cinzel", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.75rem;
   letter-spacing: 2.5px;
 }
@@ -150,31 +150,31 @@ body {
 }
 
 .slider-inner:nth-child(2) {
-  background: url("../images/D.gif") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 .slider-inner:nth-child(3) {
-  background: url("../images/Lion2.jpg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 .slider-inner:nth-child(4) {
-  background: url("../images/Lion3.jpg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 .slider-inner:nth-child(5) {
-  background: url("../images/Lion4.jpg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 .slider-inner:nth-child(6) {
-  background: url("../images/Lion5.jpg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 .slider-inner:nth-child(7) {
-  background: url("../images/Lion6.jpg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 .slider-inner:nth-child(8) {
-  background: url("../images/Lion7.jpg") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
 }
 
 @media (min-width: 700px) {

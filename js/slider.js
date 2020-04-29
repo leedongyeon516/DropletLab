@@ -3,7 +3,7 @@ const prev = document.querySelector("#prev");
 const next = document.querySelector("#next");
 const stop = document.querySelector("#stop");
 var automatic = true;
-const interval = 7500;
+const interval = 5000;
 let slideInterval;
 
 //
