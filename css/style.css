@@ -251,7 +251,7 @@ body {
 @media screen and (min-height: 320px) and (max-height: 420px) {
   .slider {
     width: 100vw;
-    height: 80vh;
+    height: 87.5vh;
     top: 10vh;
     left: 0%;
   }
