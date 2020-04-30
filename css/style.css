@@ -186,7 +186,7 @@ body {
 @media screen and (max-width: 550px) {
   .slider-inner .content {
     bottom: 0;
-    width: 175px;
+    width: 125px;
     padding: 25px;
   }
 
@@ -201,9 +201,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .slider {
-    width: 90vw;
-    height: 85vh;
-    left: 5%;
+    width: 100vw;
+    height: 40vh;
+    top: 25vh;
+    left: 0%;
   }
 
   .content {
@@ -211,7 +212,7 @@ body {
   }
 
   .card-theme {
-    font-size: 0.5rem;
+    display: none;
   }
 
   .buttons #prev,
@@ -222,17 +223,17 @@ body {
   }
 
   .buttons #prev {
-    top: 15px;
+    top: 17.5%;
     left: 10%;
   }
 
   .buttons #next {
-    top: 15px;
+    top: 17.5%;
     left: 25%;
   }
 
   .buttons #stop {
-    top: 15px;
+    top: 17.5%;
     left: 50%;
   }
 }
@@ -248,8 +249,15 @@ body {
 }
 
 @media screen and (min-height: 320px) and (max-height: 420px) {
+  .slider {
+    width: 100vw;
+    height: 80vh;
+    top: 10vh;
+    left: 0%;
+  }
+
   .card-theme {
-    font-size: 0.5rem;
+    font-size: 0.25rem;
   }
 
   .card-header {
@@ -262,7 +270,7 @@ body {
 
   .slider-inner .content {
     bottom: 0px;
-    width: 175px;
+    width: 125px;
     padding: 25px;
   }
 
