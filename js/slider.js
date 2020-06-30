@@ -3,12 +3,12 @@ const prev = document.querySelector("#prev");
 const next = document.querySelector("#next");
 const stop = document.querySelector("#stop");
 var automatic = true;
-const interval = 5000;
+const interval = 7500;
 let slideInterval;
 
 //
 const slide1 = document.querySelector(".slide-1");
-const slide8 = document.querySelector(".slide-8");
+const slide8 = document.querySelector(".slide-6");
 const last = document.querySelector(".last");
 
 const prevSlide = () => {

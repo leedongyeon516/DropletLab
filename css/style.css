@@ -34,10 +34,10 @@ body {
 .slider {
   position: relative;
   overflow: hidden;
-  width: 80vw;
-  height: 75vh;
-  top: 10vh;
-  left: 10vw;
+  width: 75vw;
+  height: 70vh;
+  top: 12.5vh;
+  left: 12.5vw;
   box-shadow: 0px 0px 15px #111;
 }
 
@@ -60,9 +60,9 @@ body {
   bottom: 70px;
   width: 300px;
   color: #fff;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.75);
   opacity: 0.5;
-  padding: 40px;
+  padding: 25px;
   transform: translateX(-300px);
 }
 
@@ -83,7 +83,7 @@ body {
 
 .card-header {
   font-weight: 700;
-  font-size: 54px;
+  font-size: 35px;
   text-transform: uppercase;
   line-height: 1;
   margin: 3vmin 0 3.5vmin;
@@ -113,22 +113,22 @@ body {
 .buttons #prev {
   position: absolute;
   bottom: 75px;
-  left: 10%;
+  left: 12.5%;
 }
 
 .buttons #next {
   position: absolute;
   bottom: 75px;
-  left: 17.5%;
+  left: 20%;
 }
 
 .buttons #stop {
-  background: lightsalmon;
+  background: gold;
   width: 20px;
   height: 20px;
   position: absolute;
   top: 35px;
-  left: 10%;
+  left: 12.5%;
 }
 
 .buttons #overview {
@@ -141,7 +141,7 @@ body {
 #next:hover,
 #stop:hover,
 #overview:hover {
-  background: darkseagreen;
+  background: lightblue;
   transition: all 0.25s ease-in-out;
 }
 
@@ -150,30 +150,22 @@ body {
 }
 
 .slider-inner:nth-child(2) {
-  background: url("../images/D_1.gif") no-repeat center center/cover;
-}
-
-.slider-inner:nth-child(3) {
   background: url("../images/D_2.gif") no-repeat center center/cover;
 }
 
-.slider-inner:nth-child(4) {
+.slider-inner:nth-child(3) {
   background: url("../images/D_3.gif") no-repeat center center/cover;
 }
 
-.slider-inner:nth-child(5) {
+.slider-inner:nth-child(4) {
   background: url("../images/D_4.gif") no-repeat center center/cover;
 }
 
-.slider-inner:nth-child(6) {
+.slider-inner:nth-child(5) {
   background: url("../images/D_5.gif") no-repeat center center/cover;
 }
 
-.slider-inner:nth-child(7) {
-  background: url("../images/D_6.gif") no-repeat center center/cover;
-}
-
-.slider-inner:nth-child(8) {
+.slider-inner:nth-child(6) {
   background: url("../images/D_7.gif") no-repeat center center/cover;
 }
 
