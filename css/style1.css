@@ -120,3 +120,18 @@ video {
   flex: 0;
   flex-basis: 0%;
 }
+
+.mobile_notice {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .custom_container {
+    display: none;
+  }
+  .mobile_notice {
+    display: block;
+    padding-top: 25%;
+    text-align: center;
+  }
+}
